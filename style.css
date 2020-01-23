@@ -1,8 +1,5 @@
 body {
   background-color: #f9fafc;
-}
-
-header {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -26,7 +23,7 @@ ul {
 }
 
 p {
-  border-left: black;
+  border-left: #000000;
   color: #69696a;
 }
 
@@ -36,7 +33,7 @@ p {
 }
 
 p {
-  border-left: 2px solid grey;
+  border-left: 2px solid #69696a;
   padding: 7px;
 }
 
@@ -46,12 +43,13 @@ h2 {
 }
 
 .button {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   width: 100%;
   border-radius: 5em;
   display: block;
   padding: 5px;
   text-align: center;
   margin-top: 10px;
+  font-size: smaller;
 }
